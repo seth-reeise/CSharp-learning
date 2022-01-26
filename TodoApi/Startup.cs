@@ -1,4 +1,7 @@
-
+/*
+ * In ASP.NET core services like the DB context must be registered with the dependency injection container.
+ * The container provides the service to the REST controlers
+ */
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 
