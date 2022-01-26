@@ -27,3 +27,8 @@
 /Users/Seth/repos/CSharp-learning/TodoApi/obj/Debug/net5.0/ref/TodoApi.dll
 /Users/Seth/repos/CSharp-learning/TodoApi/obj/Debug/net5.0/TodoApi.pdb
 /Users/Seth/repos/CSharp-learning/TodoApi/obj/Debug/net5.0/TodoApi.genruntimeconfig.cache
+/Users/Seth/repos/CSharp-learning/TodoApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/Seth/repos/CSharp-learning/TodoApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/Seth/repos/CSharp-learning/TodoApi/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/Seth/repos/CSharp-learning/TodoApi/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/Seth/repos/CSharp-learning/TodoApi/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll
