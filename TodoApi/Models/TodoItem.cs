@@ -14,10 +14,16 @@ namespace TodoApi.Models
     * set {this.name = name}
     */
     
+    
         // Unique key for database
         public long Id { get; set; }
         public string Name { get; set; }
         public bool IsComplete { get; set; }
         
+    /*
+     * A Data Transfer Object (DTO) is used to prevent over posting
+     * To do this we add a secret field
+     */
+        public string Secret { get; set; }
     }
 }
