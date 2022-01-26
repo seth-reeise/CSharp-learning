@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "VJIqbvrcANhgH06HWwFnZ38ZIrnnPsybzs1VGrrnjhgw+v+gWjR+jTkerFkIQUFfDkw4b3ZkI4u0Txqf9Gla1w==",
+  "dgSpecHash": "dhs79ME0M6p7A+mqJ+3n3nNhKHGvcaM666KexddF3FHZBNRiyLCdzwLV94rOMWgDZEX89MvQSE3m+GFVjJspUA==",
   "success": true,
   "projectFilePath": "/Users/Seth/repos/CSharp-learning/TodoApi/TodoApi.csproj",
   "expectedPackageFiles": [
     "/Users/Seth/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/Seth/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
-    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore/6.1.5/swashbuckle.aspnetcore.6.1.5.nupkg.sha512",
-    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swagger/6.1.5/swashbuckle.aspnetcore.swagger.6.1.5.nupkg.sha512",
-    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.1.5/swashbuckle.aspnetcore.swaggergen.6.1.5.nupkg.sha512",
-    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.1.5/swashbuckle.aspnetcore.swaggerui.6.1.5.nupkg.sha512"
+    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/Seth/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }
