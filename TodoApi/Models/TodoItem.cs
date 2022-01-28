@@ -24,6 +24,6 @@ namespace TodoApi.Models
      * A Data Transfer Object (DTO) is used to prevent over posting
      * To do this we add a secret field
      */
-        public string Secret { get; set; }
+        // public string Secret { get; set; }
     }
 }

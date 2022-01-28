@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
@@ -19,7 +20,7 @@ namespace TodoApi.Controllers
         {
             _context = context;
         }
-
+        
         // GET: api/TodoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetTodoItems()
@@ -34,13 +35,38 @@ namespace TodoApi.Controllers
         public async Task<ActionResult<TodoItemDTO>> GetTodoItem(long id)
         {
             var todoItem = await _context.TodoItems.FindAsync(id);
-
+            
             if (todoItem == null)
             {
                 return NotFound();
             }
             
             return ItemToDTO(todoItem);
+        }
+        
+        /*
+         * Added a new GET endpoint to return all to-do items that are either completed or not completed
+         * GET: api/TodoItems/status/true  -> gives me all to-do items that have been completed
+         * GET: api/TodoItems/status/false -> gives me all to-do items that have not been completed
+         */
+        
+        // [HttpGet("api/[controller]/{status}")]
+        [Route("status/{status}")]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetTodoItemStatus(bool status)
+        {
+            // dont have to return task if you await something
+            var todoItem = await _context.TodoItems.Where(c => c.IsComplete == status).ToListAsync();
+
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+            
+            // Ok is just the HTTP status code
+            // Conversion from OkObjectResult to ActionResult
+            return Ok(todoItem);
+
         }
 
         // PUT: api/TodoItems/5
